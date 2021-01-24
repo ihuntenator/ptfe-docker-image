@@ -1,7 +1,5 @@
-# This Dockerfile builds the image used for the worker containers.
 FROM ubuntu:xenial
 
-# Inject the ssl certificates
 #ADD ca-certificates.crt /etc/ssl/certs/ca-certificates.crt
 
 # Install software used by TFE
