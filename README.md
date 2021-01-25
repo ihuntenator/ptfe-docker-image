@@ -1,5 +1,8 @@
 # ptfe docker image
 
+Custome worker for TFE with jq added.
+
+CA bundle as required.
 
 ```
 docker build -f docker/Dockerfile -t ihuntenator/ptfe-jq:1.0.0
